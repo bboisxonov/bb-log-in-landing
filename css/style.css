@@ -27,7 +27,7 @@ body {
   justify-content: space-between;
   width: 570px;
   height: 640px;
-  background-image: url("../img/login-left.png");
+  background-image: url("../img/login-image-background.png");
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 1;
