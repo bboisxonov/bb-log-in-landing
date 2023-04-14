@@ -1,0 +1,106 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+  background: #f1f4ff;
+}
+.container {
+  max-width: 1140px;
+  padding: 0;
+  margin: 80px auto;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1140;
+  height: 640px;
+}
+.login-left {
+  border-radius: 20px;
+  padding: 60px;
+  width: 570px;
+  height: 640px;
+  background-image: url("../img/login-left.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+.login-left-info {
+  color: #fff;
+  z-index: 5;
+}
+.login-right {
+  border-radius: 20px;
+  width: 570px;
+  height: 640px;
+  background: #fff;
+  padding: 60px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+.login-info-btn {
+  padding: 5px 13px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #b3b3b3;
+  text-decoration: none;
+  border: 1px solid #b3b3b3;
+  border-radius: 15px;
+}
+.login-info-title {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+  /* or 128% */
+  width: 389px;
+  color: #ffffff;
+}
+.login-info-description {
+  width: 348px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  color: #ffffff;
+}
+.ad-btn-box {
+  position: relative;
+  z-index: 99;
+}
+.ad-btn {
+  position: absolute;
+  top: -80px;
+  text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 23px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+  padding: 29px 143px;
+  background: #4dc490;
+  border-radius: 0px 0px 20px 20px;
+}
+.ad-btn:hover {
+  opacity: 0.8;
+}
