@@ -175,3 +175,16 @@ body {
 }
 
 /* Mobile/Tablet type */
+@media only screen and (max-width: 1100px) {
+  .login {
+    flex-direction: column;
+  }
+  .login-info-title {
+    font-size: 50px;
+    line-height: 55px;
+  }
+  .login-info-description {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
